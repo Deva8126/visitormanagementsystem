@@ -18,6 +18,7 @@
     "multer": "^2.0.0"
   },
   "devDependencies": {
+    "glob": "^13.0.6",
     "nodemon": "^3.1.0"
   },
   "author": "Antigravity",
