@@ -5,10 +5,10 @@ let sheetsClient = null;
 let driveClient = null;
 let useGoogle = false;
 
-const clientEmail = process.env.GOOGLE_SERVICE_ACCOUNT_EMAIL;
-let privateKey = process.env.GOOGLE_SERVICE_ACCOUNT_PRIVATE_KEY;
-const spreadsheetId = process.env.GOOGLE_SHEETS_SPREADSHEET_ID;
-const driveFolderId = process.env.GOOGLE_DRIVE_FOLDER_ID;
+const clientEmail = null;
+let privateKey = null;
+const spreadsheetId = null;
+const driveFolderId = null;
 
 if (clientEmail && privateKey && spreadsheetId && driveFolderId) {
   try {

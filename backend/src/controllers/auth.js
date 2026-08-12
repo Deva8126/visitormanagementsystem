@@ -1,12 +1,12 @@
 const jwt = require('jsonwebtoken');
 const logger = require('../services/logger');
 
-const JWT_SECRET = process.env.JWT_SECRET || 'supersecretjwtkeyforcgstapp2026';
+const JWT_SECRET = 'supersecretjwtkeyforcgstapp2026';
 
-const ADMIN_EMAIL = process.env.ADMIN_EMAIL || 'admin@cgst.com';
-const ADMIN_PASSWORD = process.env.ADMIN_PASSWORD || 'adminpassword';
-const RECEPTIONIST_EMAIL = process.env.RECEPTIONIST_EMAIL || 'receptionist@cgst.com';
-const RECEPTIONIST_PASSWORD = process.env.RECEPTIONIST_PASSWORD || 'receptionistpassword';
+const ADMIN_EMAIL = 'admin@cgst.com';
+const ADMIN_PASSWORD = 'adminpassword';
+const RECEPTIONIST_EMAIL = 'receptionist@cgst.com';
+const RECEPTIONIST_PASSWORD ='receptionistpassword';
 
 async function login(req, res) {
   try {

@@ -1,7 +1,7 @@
 const jwt = require('jsonwebtoken');
 const logger = require('../services/logger');
 
-const JWT_SECRET = process.env.JWT_SECRET || 'supersecretjwtkeyforcgstapp2026';
+const JWT_SECRET = 'supersecretjwtkeyforcgstapp2026';
 
 function authenticateToken(req, res, next) {
   const authHeader = req.headers['authorization'];
